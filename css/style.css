@@ -3836,6 +3836,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_service.scss */
 .service_area {
+  margin: 0 auto 0 auto;
   padding-top: 100px;
   padding-bottom: 70px;
 }
