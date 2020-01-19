@@ -363,10 +363,33 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-xl-8">
                     <div class="info_text text-center">
-                        <h3 style="margin-bottom:100px;font-family: 'Jura', sans-serif;">Our Clients</h3>
-                       
-                        <img src="img/customers/n.png" style="border-radius: 25px; height:120px; width:200px;">
-                        <img src="img/customers/r.png" style="border-radius: 25px; height:120px; width:200px; margin-left:20px;">
+                        <h3 style="margin-bottom:100px;font-family: 'Jura', sans-serif; text-align:center;">Our Clients</h3>
+                        
+                        <div class="w3-content w3-section" style="max-width:500px">
+                        <img src="img/customers/n.png" class="mySlides" style="border-radius: 25px; height:120px; width:200px;  display: block;margin-left: auto; margin-right: auto;">
+                        <img src="img/customers/r.png" class="mySlides" style="border-radius: 25px; height:120px; width:200px;  ">
+                        </div>
+                        
+                        <!----------------------------->
+                        <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+                        <!----------------------------->
+                        
 
                     </div>
                 </div>
