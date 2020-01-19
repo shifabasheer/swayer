@@ -363,30 +363,30 @@
             <div class="row justify-content-center align-items-center">
                 <div class="col-xl-8">
                     <div class="info_text text-center">
-                        <h3 style="margin-bottom:100px;font-family: 'Jura', sans-serif; text-align:center;">Our Clients</h3>
+                        <h3 style="margin-bottom:100px;font-family: 'Jura', sans-serif; text-align:center; color:"white">Our Clients</h3>
                         
                         <div class="w3-content w3-section" style="max-width:500px">
-                        <img src="img/customers/n.png" class="mySlides" style="border-radius: 25px; height:120px; width:200px;  display: block;margin-left: auto; margin-right: auto;">
-                        <img src="img/customers/r.png" class="mySlides" style="border-radius: 25px; height:120px; width:200px;  display: block;margin-left: auto; margin-right: auto;  ">
+                        <img src="img/customers/n.png" class="mySlides" style="border-radius: 25px; height:170px; width:250px;  display: block;margin-left: auto; margin-right: auto; margin-bottom:50px;">
+                        <center><img src="img/customers/r.png" class="mySlides" style="border-radius: 25px; height:170px; width:250px;  display: block; margin-bottom:50px;"></center>
                         </div>
                         
-                        <!----------------------------->
+                        <!------imgslider--------------->
                         <script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
+                            var myIndex = 0;
+                            carousel();
+    
+                                function carousel() {
+                                    var i;
+                                    var x = document.getElementsByClassName("mySlides");
+                                        for (i = 0; i < x.length; i++) {
+                                            x[i].style.display = "none";  
+                                        }
+                                        myIndex++;
+                                        if (myIndex > x.length) {myIndex = 1}    
+                                            x[myIndex-1].style.display = "block";  
+                                        setTimeout(carousel, 2000); // Change image every 2 seconds
+                                }
+                        </script>
 
                         <!----------------------------->
                         

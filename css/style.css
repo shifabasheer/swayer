@@ -1912,14 +1912,14 @@ h3 {
   background-image: url(../img/banner/info_banner.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  padding: 162px 0;
+  background-position: center;
+  padding: 5px 0;
 }
 
 @media (max-width: 767px) {
   /* line 61, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_testmonial.scss */
   .Information_area {
-    padding: 100px 0;
+    padding: 200px 0;
   }
 }
 
