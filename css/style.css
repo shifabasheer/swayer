@@ -7324,7 +7324,15 @@ h6 {
 
 /*# sourceMappingURL=style.css.map */
 
+  @font-face {
+  font-family: "keya";
+  src: url("Soul Of You.ttf");
+  }
 
+  @font-face {
+  font-family: "alad";
+  src: url("Aladin-Regular.ttf");
+  }
 
 
 
