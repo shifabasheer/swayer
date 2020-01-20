@@ -3188,7 +3188,7 @@ h3 {
 .footer .footer_top {
   padding-top: 145px;
   padding-bottom: 129px;
-  background: #fff;
+  background: #2d5986;
 }
 
 @media (max-width: 767px) {
@@ -3217,7 +3217,7 @@ h3 {
 .footer .footer_top .footer_widget .footer_title {
   font-size: 18px;
   font-weight: 500;
-  color: #001D38;
+  color: #ffffff;
   text-transform: capitalize;
   margin-bottom: 40px;
 }
@@ -3247,7 +3247,7 @@ h3 {
 
 /* line 41, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p {
-  color: #919191;
+  color: #ffffff;
   font-size: 13px;
   font-weight: 400;
   line-height: 28px;
@@ -3255,18 +3255,18 @@ h3 {
 
 /* line 47, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p a {
-  color: #919191;
+  color: #ffffff;
 }
 
 /* line 49, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p a:hover {
-  color: #5DB2FF;
+  color:#ffffff;
 }
 
 /* line 55, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text {
   font-size: 16px;
-  color: #B2B2B2;
+  color: #ffffff;
   margin-bottom: 23px;
   font-weight: 400;
   line-height: 28px;
@@ -3274,7 +3274,7 @@ h3 {
 
 /* line 61, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget p.footer_text a.domain {
-  color: #B2B2B2;
+  color: #ffffff;
   font-weight: 400;
 }
 
@@ -3310,7 +3310,7 @@ h3 {
 
 /* line 90, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .footer_top .footer_widget ul li a {
-  color: #919191;
+  color: #ffffff;
   font-weight: 400;
 }
 
