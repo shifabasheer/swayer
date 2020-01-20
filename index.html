@@ -27,6 +27,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- <link rel="stylesheet" href="css/responsive.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Jura&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 
 <body>
@@ -87,8 +89,12 @@
                         <div class="col-xl-12">
                             <div class="slider_text ">
                                 <h3 style="color:white; text-align:center; font-family:alad;">Swayer Events</h3>
-                                   <h3 style="color:white; text-align:center; font-family:keya;">Our Work is Our Signature..</h3>
+                                <!-------------------------------------------------------------->
                                 
+                                
+     
+                                   <h3 class="ml12" style="color:white; text-align:center; font-family:keya;">Our Work is Our Signature..</h3>
+                                <!--------------------------------------------------------------->
                             </div>
                         </div>
                     </div>
@@ -105,7 +111,54 @@
             <div class="row align-items-center">
                 <div class="col-xl-6 col-lg-6">
                     <div class="about_text">
-                        <h3>About us</h3>
+                        
+                        <h3 class="ml14">
+                            <span class="text-wrapper">
+                                <span class="letters">About</span>
+                                <span class="letters">Us</span>
+                                <span class="line"></span>
+                            </span>
+                        
+                        </h3>
+                        <!----------------------------------------------->
+                        <style>
+
+                        </style>
+                        <script>
+                            // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml14 .letters');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml14 .line',
+    scaleX: [0,1],
+    opacity: [0.5,1],
+    easing: "easeInOutExpo",
+    duration: 900
+  }).add({
+    targets: '.ml14 .letter',
+    opacity: [0,1],
+    translateX: [40,0],
+    translateZ: 0,
+    scaleX: [0.3, 1],
+    easing: "easeOutExpo",
+    duration: 800,
+    offset: '-=600',
+    delay: (el, i) => 150 + 25 * i
+  }).add({
+    targets: '.ml14',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+
+                        </script>
+                        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+                        <!------------------------------------------------>
+                        
+                        
                         <p>Swayer is a forward looking company focused on devoleping products, provide solutions & services for technical and managerial
                          requirement of the customer. We connect decision makers to a dynamic network of data, people and idea accurately delivering business.</p>
                             <a href="#" class="boxed-btn3">Contact us</a>
@@ -233,7 +286,7 @@
                                     <img src="img/team/1.png" alt="" style="border-radius: 50%;">
                                 </div>
                                 <div class="team_info text-center">
-                                    <h3>Shilpa</h3>
+                                    <h3>Shilpa K Satheesh</h3>
                                     <p>Event Cordinator</p>
                                     
                                 </div>
@@ -303,7 +356,7 @@
                                     <a href="#" style="margin-top:0px">contact@swayer.in</a> <br>
                                     +91 8089262675 <br>
                                     Veliyath Building<br>
-                                    Near Vegitable Market<br>
+                                    Near Vegetable Market<br>
                                     Nettoor P.O<br>
                                     682040
                             </p>
@@ -387,6 +440,9 @@
     <script src="js/mail-script.js"></script>
 
     <script src="js/main.js"></script>
+    
+    
+    
 </body>
 
 </html>
