@@ -3188,7 +3188,7 @@ h3 {
 .footer .footer_top {
   padding-top: 145px;
   padding-bottom: 129px;
-  background: #2d5986;
+  background:  #001a33;
 }
 
 @media (max-width: 767px) {
@@ -3374,19 +3374,16 @@ h3 {
 /* line 143, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .copy-right_text {
   padding-bottom: 30px;
-  background: #fff;
+  background: #1f4060;
 }
 
 /* line 146, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
-.footer .copy-right_text .footer_border {
-  border-top: 1px solid #E8E8E8;
-  padding-bottom: 30px;
-}
+
 
 /* line 150, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right {
   font-size: 15px;
-  color: #919191;
+  color: #f2f2f2;
   margin-bottom: 0;
   font-weight: 500;
 }
@@ -3400,7 +3397,7 @@ h3 {
 
 /* line 158, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
 .footer .copy-right_text .copy_right a {
-  color: #5DB2FF;
+  color:#f2f2f2;
 }
 
 /* line 163, ../../Arafath/CL/CL October/216. Consulting/HTML/scss/_footer.scss */
