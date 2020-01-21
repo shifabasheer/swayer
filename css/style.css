@@ -7366,6 +7366,51 @@ h6 {
   line-height: 1em;
 }
 
+/*TRANSITION 2*/
+
+.ml5 {
+  font-family:  'Abel', sans-serif;
+  position: relative;
+  font-weight: 300;
+  font-size: 4.5em;
+  color: #402d2d;
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 3px;
+  width: 100%;
+  background-color:  #004d99;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-family:  'Abel', sans-serif;
+  font-style: bold;
+  font-weight: 400;
+  width: 1.5em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+  opacity: 0;
+}
+
 
 
 
